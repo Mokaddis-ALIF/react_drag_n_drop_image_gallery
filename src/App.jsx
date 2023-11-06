@@ -56,6 +56,7 @@ function App() {
                     checked={selectedFiles.length > 0}
                     id="headerCheckbox"
                     onChange={handlerForCheckbox}
+                    style={{ marginRight: '13px' }}
                   />
                   <label htmlFor="headerCheckbox">
                     {`${selectedFiles.length == 1
