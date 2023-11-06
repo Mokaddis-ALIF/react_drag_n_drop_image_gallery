@@ -1,11 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
 body {
   margin: 0;
   box-sizing: border-box;
-}
-
-.main {
-  /* margin: 1px; */
-  /* padding: 5px; */
+  font-family: "Anton", sans-serif;
 }
 
 .header {
@@ -16,7 +14,6 @@ body {
   margin-top: 5px;
   border-bottom: 1px solid grey;
   cursor: pointer;
-
 }
 
 .body {
